@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 2 project</title>
+  <link rel="Stylesheet" href="sophi.css">
+</head>
+<body>
+  <!-- Headrer -->
+   <headre>
+    <h1>My Web project</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="# contact">Contact</a>
+      <a href="#todo">To-Do</a>
+    </nav>
+   </headre>
+   <!-- Main content Grid -->
+    <div class="container">
+      <!-- Sidebar -->
+       <aside>
+        <h2>Sidebar</h2>
+        <p>This is a simple sidebar with extra content or links</p>
+       </aside>
+       <!-- Main Section -->
+        <main>
+    <!-- Contact Form -->
+     <!-- Main Section -->
+    <main>
+      <!-- Contact Form -->
+      <section id="contact">
+        <h2>Contact Form</h2>
+        <form id="contactForm">
+          <label>Name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
+
+          <label>Email:</label>
+          <input type="email" id="email" placeholder="Enter your email">
+
+          <label>Message:</label>
+          <textarea id="message" placeholder="Your message"></textarea>
+
+          <p class="error" id="errorMsg"></p>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+<!-- To-Do List -->
+ <section id="todo">
+  <h2>To-Do List</h2>
+  <input type="text" id="tasksInput" placeholder="Enter a task">
+  <button onclick="addTask()">Add Task</button>
+  <ul id="tasklist"></ul>
+</section>
+    </main>
+  </div>
+<!-- Fotter -->
+ <footer>
+  <p>&Copy; 2025 Anjali</p>
+ </footer>
+ <script src="Script.js"></script>
+</body>
+</html>
